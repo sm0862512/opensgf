@@ -4,7 +4,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
  workflow_dispatch:
  schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
